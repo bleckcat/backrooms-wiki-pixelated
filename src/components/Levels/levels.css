@@ -1,0 +1,8 @@
+.frame-image {
+  width: 150px;
+  height: 150px;
+}
+
+.galery-cell {
+  counter-increment: gallery-cell;
+}

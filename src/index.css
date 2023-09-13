@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+@font-face {
+  font-family: "FairFax";
+  src: local("Fairfax"), url(fonts/Fairfax.ttf) format("truetype");
+}
+:root {
+  --font-color: #b0b0b0;
+  --primary-color: #cfc573;
+  --secondary-color: #d8c25a;
+  --complementary-color: #aa9a50;
+  --emphasis-color: #ba541f;
+  --background-color: #1d1812;
+}
+
+* {
+  font-family: FairFax, monospace;
+  font-smooth: none;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: 0px;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+
+button {
+  border: none;
+}
+
+h1 {
+  letter-spacing: 0.15rem;
+  font-size: 4rem;
+  margin: 0;
+}
+
+body {
+  color: var(--font-color);
+  background-color: var(--background-color);
+  margin: 0;
+}
+
+main {
+  margin: 32px 104px;
+}
