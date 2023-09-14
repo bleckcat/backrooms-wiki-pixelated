@@ -6,10 +6,13 @@ export default function DifficultyCard() {
     <>
       <div className="difficult-card-container" key={`container-${index}`}>
         <div className="difficult-card-title-wrap">
-          <div className="card-title">
+          <div
+            className="card-title"
+            style={{ backgroundColor: difficult.color }}
+          >
             <h3>{difficult.title}</h3>
           </div>
-          <img src="assets/logo.png" alt="logo" />
+          <img src={difficult.image} alt={difficult.title} />
         </div>
         <div className="difficult-card-content-wrap">
           <ol>

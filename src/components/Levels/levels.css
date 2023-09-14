@@ -1,8 +1,49 @@
+@keyframes bounce {
+  0% {
+    transform: translateY(-8px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+}
 .frame-image {
   width: 150px;
   height: 150px;
 }
-
-.galery-cell {
+.carousel {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
   counter-increment: gallery-cell;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel .carousel-frame {
+  transition: 0.2s;
+  scroll-snap-align: center;
+}
+
+.carousel .carousel-frame:hover {
+  transform: scale(1.03);
+  transform: translateY(-4px);
+}
+
+.carousel .carousel-frame:active {
+  transform: scale(0.98);
+}
+
+.carousel .carousel-frame.active-frame {
+  animation: bounce;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0, 1);
+  animation-iteration-count: infinite;
+}
+
+.level-lebal {
+  display: flex;
+  justify-content: space-between;
 }

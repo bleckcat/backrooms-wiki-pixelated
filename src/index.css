@@ -11,6 +11,7 @@
   --complementary-color: #aa9a50;
   --emphasis-color: #ba541f;
   --background-color: #1d1812;
+  --background-color-500: #372e23;
 }
 
 * {
@@ -19,24 +20,24 @@
   box-sizing: border-box;
   box-sizing: border-box;
   scrollbar-color: transparent transparent;
-  scrollbar-width: 0px;
+  scrollbar-width: 8px;
+  font-smooth: never;
+  -ms-overflow-style: none;
+  -webkit-font-smoothing: none;
 }
 
 *::-webkit-scrollbar {
+  height: 8px;
   width: 0;
 }
 
 *::-webkit-scrollbar-track {
-  background: transparent;
+  background: var(--primary-color);
 }
 
 *::-webkit-scrollbar-thumb {
-  background: transparent;
+  background: var(--complementary-color);
   border: none;
-}
-
-* {
-  -ms-overflow-style: none;
 }
 
 button {
@@ -56,5 +57,6 @@ body {
 }
 
 main {
-  margin: 32px 104px;
+  margin: 32px auto;
+  max-width: 800px;
 }
