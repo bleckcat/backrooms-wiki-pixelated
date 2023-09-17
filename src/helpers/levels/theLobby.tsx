@@ -67,7 +67,7 @@ const theLobby: ILevels = {
       ),
       exits: () => (
         <>
-          <p>There are five currently known methods of exiting Level 0.</p>
+          <h4>There are five currently known methods of exiting Level 0.</h4>
           <ol>
             <li>
               A variety of factors will eventually cause the hallways to fade

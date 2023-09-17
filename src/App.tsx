@@ -4,7 +4,7 @@ import SpeedDial from "./components/SpeedDial"
 import { tabs } from "./helpers/pages"
 
 function App() {
-  const [changeContent, setChangeContent] = useState<number>(0)
+  const [changeContent, setChangeContent] = useState<number>(5)
 
   return (
     <>

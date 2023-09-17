@@ -82,7 +82,7 @@ const pipeDreams: ILevels = {
       ),
       exits: () => (
         <>
-          <p>There are 2 known ways of exiting Level 2.</p>
+          <h4>There are 2 known ways of exiting Level 2.</h4>
           <ol>
             <li>An unlocked door may lead to Level 2.</li>
             <li>

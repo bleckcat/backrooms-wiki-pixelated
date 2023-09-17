@@ -154,7 +154,7 @@ const eletricalStation: ILevels = {
     ),
     coloniesAndOutposts: () => (
       <>
-        <p>Gamma Base III</p>
+        <h4>Gamma Base III</h4>
         <ol>
           <li>
             A relatively large colony controlled by the Major Explorer Group,
@@ -171,7 +171,7 @@ const eletricalStation: ILevels = {
             Friendly and willing to trade — will offer temporary sanctuary.
           </li>
         </ol>
-        <p>Delta Research Base</p>
+        <h4>Delta Research Base</h4>
         <ol>
           <li>Sub-colony of Gamma Base III;</li>
           <li>Serves as a research branch of the aforementioned colony;</li>
@@ -182,9 +182,9 @@ const eletricalStation: ILevels = {
     inAndOuts: {
       entrances: () => (
         <>
-          <p>
+          <h4>
             There are three currently confirmed methods of entering Level 3;
-          </p>
+          </h4>
           <ol>
             <li>
               A wanderer may enter this level by finding a fire exit on Level 2;
@@ -202,7 +202,9 @@ const eletricalStation: ILevels = {
       ),
       exits: () => (
         <>
-          <p>There are three currently confirmed methods of exiting Level 3;</p>
+          <h4>
+            There are three currently confirmed methods of exiting Level 3;
+          </h4>
           <ol>
             <li>
               A wanderer may enter a door labeled "office sector", leading them

@@ -13,13 +13,6 @@ interface ITabs {
 
 export const tabs: ITabs[] = [
   {
-    title: "rules",
-    icon: () => (
-      <span className="material-symbols-outlined">developer_guide</span>
-    ),
-    content: () => <Difficulties />,
-  },
-  {
     title: "groups",
     icon: () => <span className="material-symbols-outlined">groups</span>,
     content: () => <Groups />,
@@ -35,6 +28,13 @@ export const tabs: ITabs[] = [
       <span className="material-symbols-outlined">deployed_code</span>
     ),
     content: () => <Objects />,
+  },
+  {
+    title: "rules",
+    icon: () => (
+      <span className="material-symbols-outlined">developer_guide</span>
+    ),
+    content: () => <Difficulties />,
   },
   {
     title: "entities",

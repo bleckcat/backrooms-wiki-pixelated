@@ -4,6 +4,7 @@
   font-family: "FairFax";
   src: local("Fairfax"), url(fonts/Fairfax.ttf) format("truetype");
 }
+
 :root {
   --font-color: #b0b0b0;
   --primary-color: #cfc573;

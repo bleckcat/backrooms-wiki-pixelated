@@ -59,7 +59,7 @@ const habitableZone: ILevels = {
     ),
     coloniesAndOutposts: () => (
       <>
-        <p>The Raiders</p>
+        <h4>The Raiders</h4>
         <ol>
           <li>
             Recently discovered group, with a expected number of 68 members;
@@ -76,7 +76,7 @@ const habitableZone: ILevels = {
             and bigger by stealing and taking over colonies and outposts.
           </li>
         </ol>
-        <p>Base Flickers of the Backroom Colonists</p>
+        <h4>Base Flickers of the Backroom Colonists</h4>
         <ol>
           <li>Relatively a small base.</li>
           <li>Owned by the main group.</li>
@@ -92,7 +92,7 @@ const habitableZone: ILevels = {
             The Republic of Level 153 and The Orderly Republic).
           </li>
         </ol>
-        <p>Republic of Level 153</p>
+        <h4>Republic of Level 153</h4>
         <ol>
           <li>Outpost of the Republic of Level 153. Has around 40 members.</li>
           <li>Takes in survivors.</li>
@@ -119,11 +119,11 @@ const habitableZone: ILevels = {
       ),
       exits: () => (
         <>
-          <p>
+          <h4>
             One can exit Level 1 by simply continuing to explore the Backrooms.
             Level 1 usually leads to Level 2 or back to Level 0. Other methods
             of exiting the level are as follows:
-          </p>
+          </h4>
           <ol>
             <li>An unlocked door may lead to Level 2.</li>
             <li>
